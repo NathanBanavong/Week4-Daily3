@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weekly4-Daily3</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">118166589102421</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">191ced3eb9b360d197c0f51d06c7bae0</string>
+
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key" translatable="false">YOUR_CONSUMER_KEY</string>
+    <string name="twitter_consumer_secret" translatable="false">YOUR_CONSUMER_SECRET</string>
+</resources>

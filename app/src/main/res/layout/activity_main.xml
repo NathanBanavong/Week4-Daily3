@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.user.MainActivity">
+
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSignIn"
+        android:text="Sign in"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSignUp"
+        android:text="Sign up"/>
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:onClick="onOptionalSignIn"
+        android:text="Sign in with Google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnTwitter"
+        android:text="Sign in with Twitter"
+        android:onClick="onOptionalSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--<com.facebook.login.widget.LoginButton-->
+        <!--android:id="@+id/buttonFacebookLogin"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_centerInParent="true" />-->
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:text="Sign in with Facebook"
+        android:onClick="onOptionalSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
